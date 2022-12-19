@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sầu riêng Đạ Huoai | Login</title>
+    <!-- Logo on Tabs -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/LOGO32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/LOGO16x16.png">
+    <link rel="manifest" href="./images/favicons/site.webmanifest">
+    <!-- CSS base source, Header - Footer and Icons for all HTML files -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <!-- Custom file -->
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Heading bar session -->
+        <div class="heading">
+            <a href="index.html">
+                <img src="./images/LOGO620x620.png" alt=""></a>
+            <h3>Đăng nhập</h3>
+        </div>
+        <!-- Body session -->
+        <div class="body">
+            <!-- Left side: Login/Sign-up Form -->
+            <div class="form-login">
+                <h1 class="font-xl">Đăng nhập</h1>
+                <div class="form">
+                    <p>Địa chỉ email</p>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    
+                    <p>Mật khẩu</p>
+                    <input type="password" id="password" placeholder="Mật khẩu" required>
+                    <div class="pw-tasks">
+                        <input type="checkbox" id="save" name="Save" value="save">
+                        <span>Lưu mật khẩu</span>
+                        <a href="#" class="forget">Quên mật khẩu?</a>
+                    </div>
+                    <input type="submit" id="submit" value="Đăng nhập" class="btn btn-primary">
+                </div>
+                <p class="sign-up">Chưa có tài khoản? <a href="sign-up.html" ><u><b>Đăng ký</b></u></a></p>
+            </div>
+            <!-- Right side: image -->
+            <div class="big-image">
+                <div class="image">
+                    <img src="https://i.ibb.co/SK10W7Y/saurieng.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "104829868153851");
+    chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+    window.fbAsyncInit = function() {
+        FB.init({
+        xfbml            : true,
+        version          : 'v12.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- ===========Start Footer============ -->
+    <footer>
+        <div class="wrapper">
+            <div class="big-logo">
+                <a href="index.html" class="logo"><img src="./images/LOGO620x620.png" alt="logo"></a>
+                <a href="index.html">Sầu riêng Đạ Huoai</a>
+            </div>
+            <div class="links">
+                <div class="aboutus">
+                    <h3>Về chúng tôi</h3>
+                    <a href="aboutus.html" class="item">Về chúng tôi</a>
+                    <a href="policy.html" class="item">Chính sách</a>
+                    <a href="contact.html" class="item">Liên hệ</a>
+                </div>
+                <div class="contact">
+                    <h3>Liên Hệ</h3>
+                    <ul>
+                        <li>
+                            <div class="icon"><span class="iconify" data-icon="carbon:location-filled"></span></div>
+                            <a href="#">Số 669 Quốc lộ 1A, Khu phố 3, Phường Linh Xuân, Thủ Đức, TP. HCM</a></li>
+                        <li>
+                            <div class="icon"><span class="iconify" data-icon="fluent:mail-48-filled"></span></div>
+                            <a href="mailto:sauriengdahuoai.official@gmail.com">sauriengdahuoai.official@gmail.com</a></li>
+                        <li>
+                            <div class="icon"><span class="iconify" data-icon="carbon:phone-voice-filled"></span></div>
+                            <a href="tel:19007979">1900 7979</a></li>
+                    </ul>
+                </div>
+                <div class="follow">
+                    <h3>Theo dõi chúng tôi</h3>
+                    <div class="media">
+                        <a href="https://www.facebook.com/sauriengdahuoai79"><span class="iconify" data-icon="ant-design:facebook-filled"></span></a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <hr>
+            <p class="copyright">&copy; 2022 Sầu riêng Đạ Huoai. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- ========== Start scripts ============-->
+    <script src="./js/header-footer.js"></script>
+</body>
+</html>

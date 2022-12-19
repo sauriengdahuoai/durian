@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sầu riêng Đạ Huoai</title>
+    <!-- Mandatory links -->
+    <!-- Logo on Tabs -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/LOGO620x620.png">
+    <link rel="manifest" href="./images/favicons/site.webmanifest">
+    <!-- CSS base source, Header - Footer and Icons for all HTML files -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <!-- Custom file -->
+    <link rel="stylesheet" href="./css/filter.css">
+    
+</head>
+<body>
+    <div class="app">
+        <!-- ==========Start Header=========== -->
+        <header>
+            <nav >
+                <div id="menu-icon"><span class="iconify" data-icon="bx:bx-menu-alt-left"></span></div>
+                <!-- Logo Sầu riêng Đạ Huoai -->
+                <div class="logo">
+                    <a href="index.html"><img src="./images/LOGO620x620.png" alt="Dahuoai logo"></a>
+                </div>
+                <!-- Menu -->
+                <ul class="menu">
+                    <li><a href="index.html" class="item">Trang chủ</a></li>
+                    <li id="menu"><a href="menu.html" class="item">Sản phẩm</a>
+                        <div class="child-1">
+                            <ul>
+                                <li><a href="filter.html#bestseller" class="sub-item-1">Phổ biến</a></li>
+                                <li><a href="filter.html#new" class="sub-item-1">Sản phẩm mới</a></li>
+                                <li><a href="filter.html#promotion" class="sub-item-1">Khuyến mãi</a></li>
+                                <li><a href="filter.html#offer" class="sub-item-1">Đề xuất</a></li>
+                                <li><a href="filter.html#sauriengtuoi" class="sub-item-1">Phân loại</a>
+                                    <div class="child-2">
+                                        <ul>
+                                            <li><a href="filter.html#sauriengtuoi" class="sub-item-2">Sầu riêng tươi</a></li>
+                                            <li><a href="filter.html#sauriengdonglanh" class="sub-item-2">Sầu riêng đông lạnh</a></li>
+                                            <li><a href="filter.html#sauriengsay" class="sub-item-2">Sầu riêng sấy</a></li>
+                                            <li><a href="filter.html#combosaurieng" class="sub-item-2">Combo Sầu riêng</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="blog.html" class="item">Blog</a></li>
+                    <li><a href="aboutus.html" class="item">Về chúng tôi</a></li>
+                    <div class="logo-menu"><a href="index.html"><img src="./images/LOGO620x620.png" alt="Logo Sầu riêng Đạ Huoai"></a></div>
+                    <div class="close-btn"><span class="iconify" data-icon="ci:close-big"></span></div>
+                </ul>
+                <!-- Search, account, cart icons -->
+                <div class="group-icons">
+                    <!-- Search icon and input -->
+                    <input type="search" id="search-input" name="durians" list="durians" placeholder="Bạn cần tìm gì?...">
+                    <datalist id="durians">
+                        <option value="Sầu riêng tươi">
+                        <option value="Sầu riêng sấy">
+                        <option value="Sầu riêng đông lạnh">
+                        <option value="Combo Sầu riêng">
+                        <option value="Combo Cao cấp">
+                        <option value="Sầu riêng sấy lạnh">
+                    </datalist>
+                    <button id="find-btn">Tìm</button>
+                    <button id="search-icon"><span class="iconify" data-icon="mdi:magnify"></span></button>
+                    <!-- Cart icon and status -->
+                    <div id="cart">
+                        <a class="cart-icon" href="cart.html">
+                            <p class="item-count"></p>
+                            <span class="iconify" data-icon="mdi:cart-outline"></span>
+                        </a>
+                        <div class="cart-box">
+                            <div class="empty-cart">
+                                <img src="images/cart_empty.png" alt="empty cart">
+                            </div>
+                            <!-- Cart has items -->
+                            <div class="non-empty">
+                                <header>Sản phẩm mới thêm</header>
+                                <div class="wrapper"></div>
+                                <div class="view-cart"><a href="cart.html" class="btn btn-primary"> Xem tất cả</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Account icon -->
+                    <a href="#" id="account-icon">
+                        <div class="acc-photo">
+                            <img class="user-photo" src="https://surilasauriengdo.net/wp-content/themes/suri/assets/images/contact3.png" alt="">
+                            <p class="temp-user"><span class="iconify" data-icon="mdi:account-circle-outline"></span></p>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+
+        </header>
+        <!-- LOADING PROGRESS -->
+        <div class="loading">
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+        </div>
+        <!-- ==========Start BEST SELLER layout container============= -->
+        <div class="fragment" id="bestseller">
+            <!-- Banner -->
+            <section class="banners">
+                <div class="slide-wrapper">
+                    <div class="slider-item best-seller"></div>
+                </div>
+                <div class="banner-text">
+                    <h1 class="font-xxl main-title">Bán chạy</h1>
+                    <h3 class="description">Khám phá những loại sầu riêng được ưa thích nhất nào!</p>
+                </div>
+            </section>
+            <!-- Filter -->
+            <select id="filter">
+                <option>Lọc theo giá</option>
+                <option>Dưới 60.000</option>
+                <option>Từ 60.000 đến 100.000</option>
+                <option>Từ 100.000 đến 1.000.000</option>
+                <option>Từ 1.000.000 đến 2.000.000</option>
+                <option>Trên 2.000.000</option>
+            </select>
+            <!-- Start Best Sellers -->
+            <section class="all-product">
+                <div class="wrapper">
+                    <div class="container"></div>
+                </div>
+                <div class="floating-buble">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="">
+                </div>
+            </section>
+        </div>
+        <!-- ==========Start NEW PRODUCT layout container============= -->
+        <div class="fragment" id="new-pro">
+            <!-- Banner -->
+            <section class="banners">
+                <div class="slide-wrapper">
+                    <div class="slider-item new"></div>
+                </div>
+                <div class="banner-text">
+                    <h1 class="font-xxl main-title">Sản phẩm mới</h1>
+                    <h3 class="description">Thưởng thức những sản phẩm sầu riêng thơm ngon nhất của Sầu riêng Đạ Huoai</p>
+                </div>
+            </section>
+            <!-- Filter -->
+            <select id="filter">
+                <option>Lọc theo giá</option>
+                <option>Dưới 60.000</option>
+                <option>Từ 60.000 đến 100.000</option>
+                <option>Từ 100.000 đến 1.000.000</option>
+                <option>Từ 1.000.000 đến 2.000.000</option>
+                <option>Trên 2.000.000</option>
+            </select>
+            <!-- Start new flavour -->
+            <section id="new">
+                <h2 class="title font-xl">Hương vị mới</h2> 
+                <div class="content">
+                    <table with="100">
+                        <tr>
+                            <td>
+                                <div class="text">
+                                    <h3 class="name">Xôi sầu riêng</h3>
+                                    <p><b>40.000 <u>đ</u></b></p>
+                                    <br>
+                                    <input class="btn btn-second" type="button" value="ĐẶT MUA NGAY">
+                                </div>                                
+                            </td>
+                            <td>
+                                <div class="flavour-content">
+                                    <img class="flavour-image" style="width: 700px; height: 500px;" src="https://i.ibb.co/xF2GQzN/S-u-ri-ng-t-i.png" alt="">
+                                    <div class="new-flavour">
+                                        <p><span>NEW FLAVOUR</span></p>                            
+                                    </div>
+                                </div>                                
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <!-- Start new product -->
+            <section class="all-product">
+                <div class="wrapper">
+                    <h2 class="title font-xl">Sản phẩm mới</h2>
+                    <div class="container"></div>
+                </div>
+                <div class="floating-buble">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="">
+                </div>
+            </section>
+        </div>
+        <!-- ==========Start PROMOTION layout container============= -->
+        <div class="fragment" id="promotion">
+            <!-- Banner -->
+            <section class="banners">
+                <div class="slide-wrapper">
+                    <div class="slider-item sale"></div>
+                </div>
+                <div class="banner-text">
+                    <h1 class="font-xxl main-title">Khuyến mãi</h1>
+                    <h3 class="description">Khuyến mãi lên đến 20% - sale sập sàn!</h3>
+                </div>
+            </section>
+            <!-- Filter -->
+            <select id="filter">
+                <option>Lọc theo giá</option>
+                <option>Dưới 60.000</option>
+                <option>Từ 60.000 đến 100.000</option>
+                <option>Từ 100.000 đến 1.000.000</option>
+                <option>Từ 1.000.000 đến 2.000.000</option>
+                <option>Trên 2.000.000</option>
+            </select>
+            <!-- Start new product -->
+            <section class="all-product">
+                <div class="wrapper">
+                    <h2 class="title font-xl">Khuyến mãi</h2>
+                    <div class="container"></div>
+                </div>
+                <div class="floating-buble">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="">
+                </div>
+            </section>            
+        </div>
+        <!-- ==========Start OFFER layout container============= -->
+        <div class="fragment" id="offer-pro">
+            <!-- Banner -->
+            <section class="banners">
+                <div class="slide-wrapper">
+                    <div class="slider-item offer"></div>
+                </div>
+                <div class="banner-text">
+                    <h1 class="font-xxl main-title">Đề xuất</h1>
+                    <h3 class="description">Sầu riêng thơm ngon trên từng ngón tay!</p>
+                </div>
+            </section>
+            <!-- Filter -->
+            <select id="filter">
+                <option>Lọc theo giá</option>
+                <option>Dưới 60.000</option>
+                <option>Từ 60.000 đến 100.000</option>
+                <option>Từ 100.000 đến 1.000.000</option>
+                <option>Từ 1.000.000 đến 2.000.000</option>
+                <option>Trên 2.000.000</option>
+            </select>
+            <!-- Start offer weekend -->
+            <section id="offer-weekend">
+                <table class="content" >
+                    <tr>
+                        <td>
+                            <div class="flavour-content">
+                                <img class="flavour-image" style="width: 600px; height: 400px;" src="https://i.ibb.co/LYkXHZb/flan-Sau-rieng.png" alt="">
+                                <div class="offer-flavour">
+                                    <p><span>WEEKLY OFFER</span></p>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2 class="title font-xl">Cuối tuần ăn gì?</h2> 
+                            <h3 class="name">Bánh Flan sầu riêng</h3>
+                            <div>
+                                <img src="./images/LOGO620x620.png"></p>
+                                <p><b>15.000<u>đ</u></b></p>
+                            </div>
+                            <input class="btn btn-second" type="button" value="ĐẶT MUA NGAY">
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <!-- Start combo -->
+            <section id="combo">
+                <div class="wrapper">
+                    <div class="item">
+                        <h2 class="title font-xl">Đề xuất</h2>
+                        <!-- 1 Item -->
+                        <div class="container left">
+                            <div class="content">
+                                <h3 class="combo"><u>Combo</u></h3>
+                                <h4 class="name">Combo Cao cấp</h4>
+                                <p class="price"><del>2.499.000đ</del><b> 2.299.000đ</b></p>
+                                <a href="cart.html" class="btn btn-third">Đặt mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 1 item -->
+                    <div class="item">
+                        <div class="container right">
+                            <div class="content">
+                                <h3 class="combo"><u>Combo</u></h3>
+                                <h4 class="name">Combo Khuyến mãi</h4>
+                                <p class="price"><del>1.499.000đ</del><b> 1.299.000đ</b></p>
+                                <a href="cart.html" class="btn btn-third">Đặt mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="all-product">
+                <div class="wrapper">
+                    <h2 class="title font-xl">Đề xuất cho bạn</h2>
+                    <div class="offer-list container"></div>
+                </div>  
+                <div class="floating-buble">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="">
+                </div>
+                <div class="floating-buble sale2">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="">
+                </div>
+            </section>      
+        </div>
+        <!-- ==========Start Sầu riêng tươi layout container============= -->
+        <div class="fragment" id="sauriengtuoi">
+            <!-- Banner -->
+            <section class="banners">
+                <div class="slide-wrapper">
+                    <div class="slider-item sauriengtuoi"></div>
+                </div>
+                <div class="banner-text">
+                    <h1 class="font-xxl main-title">Sầu riêng tươi</h1>
+                    <h3 class="description">Đặc biệt hương vị ngọt thơm hoàn toàn tự nhiên</p>
+                </div>
+            </section>
+            <!-- Filter -->
+            <select id="filter">
+                <option>Lọc theo giá</option>
+                <option>Dưới 60.000</option>
+                <option>Từ 60.000 đến 100.000</option>
+                <option>Từ 100.000 đến 1.000.000</option>
+                <option>Từ 1.000.000 đến 2.000.000</option>
+                <option>Trên 2.000.000</option>
+            </select>
+            <!-- Start Sầu riêng tươi box-->
+            <section id="box">
+                <table class="content" >
+                    <tr>
+                        <td class="image">
+                            <div class="flavour-content">
+                                <img class="flavour-image" src="https://i.ibb.co/sVDZ3jx/blog.png" alt="sauriengtuoi box">
+                            </div>
+                        </td>
+                        <td class="text">
+                            <h2 class="title font-xl">Hộp quà Sầu riêng tươi </h2> 
+                            <div>
+                                <p class="description">Sầu riêng Đạ Huoai cam kết sẽ giao tận tay món quà này đến người bạn yêu thương!</p>
+                                <p class="price">100.000<u>đ</u></p>
+                            </div>
+                            <a href="#" class="btn btn-second">ĐẶT MUA NGAY</a>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            
+            <!-- Start Sầu riêng tươi product -->
+            <section class="all-product">
+                <div class="wrapper">
+                    <h2 class="title font-xl">Sản phẩm khác</h2>
+                    <div class="container"></div>
+                </div>
+                <div class="floating-buble">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="">
+                </div>
+                <div class="floating-buble sale2">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="">
+                </div>
+            </section>
+        </div>
+        <!-- ==========Start Sầu riêng đông lạnh layout container============= -->
+        <div class="fragment" id="sauriengdonglanh">
+            <!-- Banner -->
+            <section class="banners">
+                <div class="slide-wrapper">
+                    <div class="slider-item sauriengdonglanh"></div>
+                </div>
+                <div class="banner-text">
+                    <h1 class="font-xxl main-title">Sầu riêng đông lạnh</h1>
+                    <h3 class="description">Món đặc sản rất nổi tiếng của Đạ Huoai</p>
+                </div>
+            </section>
+            <!-- Filter -->
+            <select id="filter">
+                <option>Lọc theo giá</option>
+                <option>Dưới 60.000</option>
+                <option>Từ 60.000 đến 100.000</option>
+                <option>Từ 100.000 đến 1.000.000</option>
+                <option>Từ 1.000.000 đến 2.000.000</option>
+                <option>Trên 2.000.000</option>
+            </select>
+            <!-- Start Sầu riêng đông lạnh box-->
+            <section id="infor">
+                <table class="content" >
+                    <tr>
+                        <td class="text">
+                            <h2 class="title font-xl">Bạn có biết?</h2> 
+                            <div class="description">
+                                <p >Món đặc sản rất nổi tiếng của Đạ Huoai </p>
+                                <p class="des"><br/>Đặc biệt hương vị ngọt thơm hoàn toàn tự nhiên, không có đường hay bất cứ hương liệu nào cả. 
+                                    Vừa ngon lại an toàn cho sức khỏe.</p>
+                            </div>
+                        </td>
+                        <td class="image">
+                            <div class="flavour-content">
+                                <img class="flavour-image" src="https://i.ibb.co/4FSMs48/sauriengdonglanh.png" alt="sauriengdonglanh box">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            
+            <!-- Start Sầu riêng đông lạnh product -->
+            <section class="all-product">
+                <div class="wrapper">
+                    <h2 class="title font-xl">Sầu riêng đông lạnh</h2>
+                    <div class="container"></div>
+                </div>
+                <div class="floating-buble">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="">
+                </div>
+                <div class="floating-buble sale2">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="">
+                </div>
+            </section>
+        </div>
+        <!-- ==========Start Sầu riêng sấy layout container============= -->
+        <div class="fragment" id="sauriengsay">
+            <!-- Banner -->
+            <section class="banners">
+                <div class="slide-wrapper">
+                    <div class="slider-item sauriengsay"></div>
+                </div>
+                <div class="banner-text">
+                    <h1 class="font-xxl main-title">Sầu riêng sấy</h1>
+                    <h3 class="description">Món đặc sản rất nổi tiếng của Đạ Huoai</p>
+                </div>
+            </section>
+            <!-- Filter -->
+            <select id="filter">
+                <option>Lọc theo giá</option>
+                <option>Dưới 60.000</option>
+                <option>Từ 60.000 đến 100.000</option>
+                <option>Từ 100.000 đến 1.000.000</option>
+                <option>Từ 1.000.000 đến 2.000.000</option>
+                <option>Trên 2.000.000</option>
+            </select>
+            <!-- Start Sầu riêng sấy product -->
+            <section class="all-product">
+                <div class="wrapper">
+                    <h2 class="title font-xl">Sầu riêng sấy</h2>
+                    <div class="container"></div>
+                </div>
+                <div class="floating-buble">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="">
+                </div>
+                <div class="floating-buble sale2">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="">
+                </div>
+            </section>
+        </div>
+        <!-- ==========Start Combo sầu riêng layout container============= -->
+        <div class="fragment" id="combosaurieng">
+            <!-- Banner -->
+            <section class="banners">
+                <div class="slide-wrapper">
+                    <div class="slider-item combosaurieng"></div>
+                </div>
+                <div class="banner-text">
+                    <h1 class="font-xxl main-title">Combo sầu riêng</h1>
+                    <h3 class="description">Đây là dòng sản phẩm đặc biệt nhất của SR Đạ Huoai.</p>
+                </div>
+            </section>
+            <!-- Filter -->
+            <select id="filter">
+                <option>Lọc theo giá</option>
+                <option>Dưới 60.000</option>
+                <option>Từ 60.000 đến 100.000</option>
+                <option>Từ 100.000 đến 1.000.000</option>
+                <option>Từ 1.000.000 đến 2.000.000</option>
+                <option>Trên 2.000.000</option>
+            </select>
+            
+            <!-- Start Combo sầu riêng product -->
+            <section class="all-product">
+                <div class="wrapper">
+                    <h2 class="title font-xl">Combo sầu riêng</h2>
+                    <div class="container"></div>
+                </div>
+                <div class="floating-buble">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="">
+                </div>
+                <div class="floating-buble sale2">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="">
+                </div>
+            </section>
+        </div>
+        <!-- Messenger Chat Plugin Code -->
+        <div id="fb-root"></div>
+
+        <!-- Your Chat Plugin code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+
+        <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "104829868153851");
+        chatbox.setAttribute("attribution", "biz_inbox");
+        </script>
+
+        <!-- Your SDK code -->
+        <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+            xfbml            : true,
+            version          : 'v12.0'
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!-- ===========Start Footer============ -->
+        <footer>
+            <div class="wrapper">
+                <div class="big-logo">
+                    <a href="index.html" class="logo"><img src="./images/LOGO620x620.png" alt="logo"></a>
+                    <a href="index.html">Sầu riêng Đạ Huoai</a>
+                </div>
+                <div class="links">
+                    <div class="aboutus">
+                        <h3>Về chúng tôi</h3>
+                        <a href="aboutus.html" class="item">Về chúng tôi</a>
+                        <a href="policy.html" class="item">Chính sách</a>
+                        <a href="contact.html" class="item">Liên hệ</a>
+                    </div>
+                    <div class="contact">
+                        <h3>Liên Hệ</h3>
+                        <ul>
+                            <li>
+                                <div class="icon"><span class="iconify" data-icon="carbon:location-filled"></span></div>
+                                <a href="#">Số 669 Quốc lộ 1A, Khu phố 3, Phường Linh Xuân, Thủ Đức, TP. HCM</a></li>
+                            <li>
+                                <div class="icon"><span class="iconify" data-icon="fluent:mail-48-filled"></span></div>
+                                <a href="mailto:sauriengdahuoai.official@gmail.com">sauriengdahuoai.official@gmail.com</a></li>
+                            <li>
+                                <div class="icon"><span class="iconify" data-icon="carbon:phone-voice-filled"></span></div>
+                                <a href="tel:19007979">1900 7979</a></li>
+                        </ul>
+                    </div>
+                    <div class="follow">
+                        <h3>Theo dõi chúng tôi</h3>
+                        <div class="media">
+                            <a href="https://www.facebook.com/sauriengdahuoai79"><span class="iconify" data-icon="ant-design:facebook-filled"></span></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <hr>
+                <p class="copyright">&copy; 2022 Sầu riêng Đạ Huoai. All rights reserved.</p>
+            </div>
+        </footer>
+        <!-- ========== Start scripts ============-->
+        <!-- Compulsory -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="/js/header-footer.js"></script>
+        <!-- Customize your script here -->
+        <script src="/js/filter.js"></script>
+        <script src="/js/product.js"></script>
+    </div>
+</body>
+</html>

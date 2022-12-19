@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sầu riêng Đạ Huoai</title>
+    <!-- Mandatory links -->
+    <!-- Logo on Tabs -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/LOGO32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/LOGO16x16.png">
+    <link rel="manifest" href="./images/favicons/site.webmanifest">
+    <!-- CSS base source, Header - Footer and Icons for all HTML files -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <!-- Custom file -->
+    <link rel="stylesheet" href="./css/sample-post.css">
+</head>
+<body>
+    <div class="app">
+        <!-- ==========Start Header=========== -->
+        <header>
+            <nav >
+                <div id="menu-icon"><span class="iconify" data-icon="bx:bx-menu-alt-left"></span></div>
+                <!-- Logo Sầu riêng Đạ Huoai -->
+                <div class="logo">
+                    <a href="index.html"><img src="./images/LOGO620x620.png" alt="Logo Sầu riêng Đạ Huoai"></a>
+                </div>
+                <!-- Menu -->
+                <ul class="menu">
+                    <li><a href="index.html" class="item">Trang chủ</a></li>
+                    <li id="menu"><a href="menu.html" class="item">Sản phẩm</a>
+                        <div class="child-1">
+                            <ul>
+                                <li><a href="filter.html#bestseller" class="sub-item-1">Phổ biến</a></li>
+                                <li><a href="filter.html#new" class="sub-item-1">Sản phẩm mới</a></li>
+                                <li><a href="filter.html#promotion" class="sub-item-1">Khuyến mãi</a></li>
+                                <li><a href="filter.html#offer" class="sub-item-1">Đề xuất</a></li>
+                                <li><a href="#" class="sub-item-1">Phân loại</a>
+                                    <div class="child-2">
+                                        <ul>
+                                            <li><a href="filter.html#sauriengtuoi" class="sub-item-2">Sầu riêng tươi</a></li>
+                                            <li><a href="filter.html#sauriengdonglanh" class="sub-item-2">Sầu riêng đông lạnh</a></li>
+                                            <li><a href="filter.html#sauriengsay" class="sub-item-2">Sầu riêng sấy</a></li>
+                                            <li><a href="filter.html#combosaurieng" class="sub-item-2">Combo Sầu riêng</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="blog.html" class="item" id="blog-item"> Blog</a></li>
+                    <li><a href="aboutus.html" class="item">Về chúng tôi</a></li>
+                    <div class="logo-menu"><a href="index.html"><img src="./images/LOGO620x620.png" alt="Logo Sầu riêng Đạ Huoai"></a></div>
+                    <div class="close-btn"><span class="iconify" data-icon="ci:close-big"></span></div>
+                </ul>
+                <!-- Search, account, cart icons -->
+                <div class="group-icons">
+                    <!-- Search icon and input -->
+                    <input type="search" id="search-input" name="durians" list="durians" placeholder="Bạn cần tìm gì?...">
+                    <datalist id="durians">
+                        <option value="Sầu riêng tươi">
+                        <option value="Sầu riêng sấy">
+                        <option value="Sầu riêng đông lạnh">
+                        <option value="Combo Sầu riêng">
+                        <option value="Combo Cao cấp">
+                        <option value="Sầu riêng sấy lạnh">
+                    </datalist>
+                    <button id="find-btn">Tìm</button>
+                    <button id="search-icon"><span class="iconify" data-icon="mdi:magnify"></span></button>
+                    <!-- Cart icon and status -->
+                    <div id="cart">
+                        <a class="cart-icon" href="cart.html">
+                            <p class="item-count"></p>
+                            <span class="iconify" data-icon="mdi:cart-outline"></span>
+                        </a>
+                        <div class="cart-box">
+                            <div class="empty-cart">
+                                <img src="images/cart_empty.png" alt="empty cart">
+                            </div>
+                            <!-- Cart has items -->
+                            <div class="non-empty">
+                                <header>Sản phẩm mới thêm</header>
+                                <div class="wrapper"></div>
+                                <div class="view-cart"><a href="cart.html" class="btn btn-primary"> Xem tất cả</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Account icon -->
+                    <a href="#" id="account-icon">
+                        <div class="acc-photo">
+                            <img class="user-photo" src="https://surilasauriengdo.net/wp-content/themes/suri/assets/images/contact3.png" alt="">
+                            <p class="temp-user"><span class="iconify" data-icon="mdi:account-circle-outline"></span></p>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+ 
+        </header>
+ 
+        <!-- ==========Start layout container============= -->
+        <div id="sample-post">
+            <section class="post-section">
+                <h3 class="post-heading">Tổng hợp 10 món ngon từ sầu riêng siêu hấp dẫn</h3>
+                <p class="post-text">Sầu riêng là loại trái nhiệt đới mang mùi thơm đậm và vị ngọt béo khá kén người ăn nhưng lại gây lưu luyến thực khách nào đã từng thưởng thức. Hãy cùng Sầu Riêng Đạ Huoai vào bếp khám phá những món ngon hấp dẫn từ sầu riêng đơn giản tại nhà nhé!</p>
+                <img class="post-image" src="https://i.ibb.co/CBgJYVT/bai1hinh1.jpg" alt="" >
+               
+                <p class="sub-text">1. Sầu riêng nướng</p>
+                <img class="post-image" src="https://i.ibb.co/frR5ycW/bai1hinh2.jpg" alt="" >
+                <p class="sub-text">Món kem mát lạnh là món ngọt đặc biệt được ưa chuộng vào những ngày hè nắng nóng oi bức. Vị kem ngọt thanh mát kết hợp cùng hương sầu riêng đặc trưng béo ngậy tạo nên món kem sầu riêng mà bất cứ ai cũng không thể chối từ.</p>
+                <p class="sub-text">Sầu riêng mang vào món kem hương vị béo ngậy, mùi thơm nức mũi đặc trưng ngay từ những muỗng đầu tiên. Món kem mát lạnh với chất kem sánh mịn, vị ngọt thanh tan ngay trên đầu lưỡi.</p>
+                <p class="sub-text">Tất cả tạo nên hương vị ngất ngây, khó cưỡng mà chỉ có riêng kem sầu riêng mang lại, ngay lập tức xua tan đi cái nóng oi bức của thời tiết ngày hè.</p>
+               
+                <p class="sub-text">2. Kem sầu riêng</p>
+                <img class="post-image" src="https://i.ibb.co/GMLxGCV/bai1hinh3.jpg" alt="" >
+                <p class="sub-text">Sầu riêng là loại trái cây thơm ngon với hương vị độc đáo, được ưa chuộng dùng tươi như một loại trái cây thơm béo. Tuy nhiên, có một cách làm gia tăng hương vị loại trái cây này mà không phải ai cũng biết, đó là phương pháp nướng.</p>
+                <p class="sub-text">Sầu riêng được tách múi, nướng trực tiếp ngay trên bếp than hoặc lò nướng. Bên ngoài múi sầu riêng được nướng cháy xém cạnh, nóng thơm ngào ngạt. Thịt sầu riêng mềm béo ngậy bên trong dậy lên mùi hương hấp dẫn.</p>
+                <p class="sub-text">Món sầu riêng nướng thực hiện đơn giản, ăn ngay khi nóng và sầu riêng nướng có mùi ngon hơn nhiều so với ăn tươi thông thường đấy nhé.</p>
+               
+                <p class="sub-text">3. Sinh tố sầu riêng</p>
+                <img class="post-image" src="https://i.ibb.co/T1vDyRx/hinh3.jpg" alt="" >
+                <p class="sub-text">Sầu riêng là loại trái cây thơm ngon với hương vị độc đáo, được ưa chuộng dùng tươi như một loại trái cây thơm béo. Tuy nhiên, có một cách làm gia tăng hương vị loại trái cây này mà không phải ai cũng biết, đó là phương pháp nướng.</p>
+                <p class="sub-text">Sầu riêng được tách múi, nướng trực tiếp ngay trên bếp than hoặc lò nướng. Bên ngoài múi sầu riêng được nướng cháy xém cạnh, nóng thơm ngào ngạt. Thịt sầu riêng mềm béo ngậy bên trong dậy lên mùi hương hấp dẫn.</p>
+                <p class="sub-text">Món sầu riêng nướng thực hiện đơn giản, ăn ngay khi nóng và sầu riêng nướng có mùi ngon hơn nhiều so với ăn tươi thông thường đấy nhé.</p>
+ 
+                <p class="sub-text">4. Chè sầu riêng</p>
+                <img class="post-image" src="https://i.ibb.co/VLXYnLX/hinh4.jpg" alt="" >
+                <p class="sub-text">Sầu riêng là loại trái cây thơm ngon với hương vị độc đáo, được ưa chuộng dùng tươi như một loại trái cây thơm béo. Tuy nhiên, có một cách làm gia tăng hương vị loại trái cây này mà không phải ai cũng biết, đó là phương pháp nướng.</p>
+                <p class="sub-text">Sầu riêng được tách múi, nướng trực tiếp ngay trên bếp than hoặc lò nướng. Bên ngoài múi sầu riêng được nướng cháy xém cạnh, nóng thơm ngào ngạt. Thịt sầu riêng mềm béo ngậy bên trong dậy lên mùi hương hấp dẫn.</p>
+                <p class="sub-text">Món sầu riêng nướng thực hiện đơn giản, ăn ngay khi nóng và sầu riêng nướng có mùi ngon hơn nhiều so với ăn tươi thông thường đấy nhé.</p>
+ 
+                <p class="sub-text">5. Xôi sầu riêng</p>
+                <img class="post-image" src="https://i.ibb.co/0YnTrtw/hinh5.jpg" alt="" >
+                <p class="sub-text">Sầu riêng là loại trái cây thơm ngon với hương vị độc đáo, được ưa chuộng dùng tươi như một loại trái cây thơm béo. Tuy nhiên, có một cách làm gia tăng hương vị loại trái cây này mà không phải ai cũng biết, đó là phương pháp nướng.</p>
+                <p class="sub-text">Sầu riêng được tách múi, nướng trực tiếp ngay trên bếp than hoặc lò nướng. Bên ngoài múi sầu riêng được nướng cháy xém cạnh, nóng thơm ngào ngạt. Thịt sầu riêng mềm béo ngậy bên trong dậy lên mùi hương hấp dẫn.</p>
+                <p class="sub-text">Món sầu riêng nướng thực hiện đơn giản, ăn ngay khi nóng và sầu riêng nướng có mùi ngon hơn nhiều so với ăn tươi thông thường đấy nhé.</p>
+ 
+                <p class="sub-text">6. Bánh crepe sầu riêng</p>
+                <img class="post-image" src="https://i.ibb.co/YNN1dfY/hinh6.jpg" alt="" >
+                <p class="sub-text">Sầu riêng là loại trái cây thơm ngon với hương vị độc đáo, được ưa chuộng dùng tươi như một loại trái cây thơm béo. Tuy nhiên, có một cách làm gia tăng hương vị loại trái cây này mà không phải ai cũng biết, đó là phương pháp nướng.</p>
+                <p class="sub-text">Sầu riêng được tách múi, nướng trực tiếp ngay trên bếp than hoặc lò nướng. Bên ngoài múi sầu riêng được nướng cháy xém cạnh, nóng thơm ngào ngạt. Thịt sầu riêng mềm béo ngậy bên trong dậy lên mùi hương hấp dẫn.</p>
+                <p class="sub-text">Món sầu riêng nướng thực hiện đơn giản, ăn ngay khi nóng và sầu riêng nướng có mùi ngon hơn nhiều so với ăn tươi thông thường đấy nhé.</p>
+ 
+                <p class="sub-text">7. Rau câu sầu riêng</p>
+                <img class="post-image" src=" https://i.ibb.co/C7RQp2p/hinh7.jpg" alt="" >
+                <p class="sub-text">Sầu riêng là loại trái cây thơm ngon với hương vị độc đáo, được ưa chuộng dùng tươi như một loại trái cây thơm béo. Tuy nhiên, có một cách làm gia tăng hương vị loại trái cây này mà không phải ai cũng biết, đó là phương pháp nướng.</p>
+                <p class="sub-text">Sầu riêng được tách múi, nướng trực tiếp ngay trên bếp than hoặc lò nướng. Bên ngoài múi sầu riêng được nướng cháy xém cạnh, nóng thơm ngào ngạt. Thịt sầu riêng mềm béo ngậy bên trong dậy lên mùi hương hấp dẫn.</p>
+                <p class="sub-text">Món sầu riêng nướng thực hiện đơn giản, ăn ngay khi nóng và sầu riêng nướng có mùi ngon hơn nhiều so với ăn tươi thông thường đấy nhé.</p>
+ 
+                <p class="sub-text">8. Mì sầu riêng</p>
+                <img class="post-image" src=" https://i.ibb.co/tQSsxJr/hinh8.jpg" alt="" >
+                <p class="sub-text">Sầu riêng là loại trái cây thơm ngon với hương vị độc đáo, được ưa chuộng dùng tươi như một loại trái cây thơm béo. Tuy nhiên, có một cách làm gia tăng hương vị loại trái cây này mà không phải ai cũng biết, đó là phương pháp nướng.</p>
+                <p class="sub-text">Sầu riêng được tách múi, nướng trực tiếp ngay trên bếp than hoặc lò nướng. Bên ngoài múi sầu riêng được nướng cháy xém cạnh, nóng thơm ngào ngạt. Thịt sầu riêng mềm béo ngậy bên trong dậy lên mùi hương hấp dẫn.</p>
+                <p class="sub-text">Món sầu riêng nướng thực hiện đơn giản, ăn ngay khi nóng và sầu riêng nướng có mùi ngon hơn nhiều so với ăn tươi thông thường đấy nhé.</p>
+ 
+                <p class="sub-text">9. Tàu hũ sầu riêng</p>
+                <img class="post-image" src="https://i.ibb.co/qBXjsDF/hinh9.jpg" alt="" >
+                <p class="sub-text">Sầu riêng là loại trái cây thơm ngon với hương vị độc đáo, được ưa chuộng dùng tươi như một loại trái cây thơm béo. Tuy nhiên, có một cách làm gia tăng hương vị loại trái cây này mà không phải ai cũng biết, đó là phương pháp nướng.</p>
+                <p class="sub-text">Sầu riêng được tách múi, nướng trực tiếp ngay trên bếp than hoặc lò nướng. Bên ngoài múi sầu riêng được nướng cháy xém cạnh, nóng thơm ngào ngạt. Thịt sầu riêng mềm béo ngậy bên trong dậy lên mùi hương hấp dẫn.</p>
+                <p class="sub-text">Món sầu riêng nướng thực hiện đơn giản, ăn ngay khi nóng và sầu riêng nướng có mùi ngon hơn nhiều so với ăn tươi thông thường đấy nhé.</p>
+ 
+                <p class="sub-text">10. Bánh flan sầu riêng</p>
+                <img class="post-image" src="https://i.ibb.co/vLr9RGm/hinh10.jpg" alt="" >
+                <p class="sub-text">Sầu riêng là loại trái cây thơm ngon với hương vị độc đáo, được ưa chuộng dùng tươi như một loại trái cây thơm béo. Tuy nhiên, có một cách làm gia tăng hương vị loại trái cây này mà không phải ai cũng biết, đó là phương pháp nướng.</p>
+                <p class="sub-text">Sầu riêng được tách múi, nướng trực tiếp ngay trên bếp than hoặc lò nướng. Bên ngoài múi sầu riêng được nướng cháy xém cạnh, nóng thơm ngào ngạt. Thịt sầu riêng mềm béo ngậy bên trong dậy lên mùi hương hấp dẫn.</p>
+                <p class="sub-text">Món sầu riêng nướng thực hiện đơn giản, ăn ngay khi nóng và sầu riêng nướng có mùi ngon hơn nhiều so với ăn tươi thông thường đấy nhé.</p>
+       
+ 
+        <!-- ===========Start Footer============ -->
+        <footer>
+            <div class="wrapper">
+                <div class="big-logo">
+                    <a href="index.html" class="logo"><img src="./images/LOGO620x620.png" alt="logo"></a>
+                    <a href="index.html">Sầu riêng Đạ Huoai</a>
+                </div>
+                <div class="links">
+                    <div class="aboutus">
+                        <h3>Về chúng tôi</h3>
+                        <a href="aboutus.html" class="item">Về chúng tôi</a>
+                        <a href="policy.html" class="item">Chính sách</a>
+                        <a href="contact.html" class="item">Liên hệ</a>
+                    </div>
+                    <div class="contact">
+                        <h3>Liên Hệ</h3>
+                        <ul>
+                            <li>
+                                <div class="icon"><span class="iconify" data-icon="carbon:location-filled"></span></div>
+                                <a href="#">Số 669 Quốc lộ 1A, Khu phố 3, Phường Linh Xuân, Thủ Đức, TP. HCM</a></li>
+                            <li>
+                                <div class="icon"><span class="iconify" data-icon="fluent:mail-48-filled"></span></div>
+                                <a href="mailto:sauriengdahuoai.official@gmail.com">sauriengdahuoai.official@gmail.com</a></li>
+                            <li>
+                                <div class="icon"><span class="iconify" data-icon="carbon:phone-voice-filled"></span></div>
+                                <a href="tel:19007979">1900 7979</a></li>
+                        </ul>
+                    </div>
+                    <div class="follow">
+                        <h3>Theo dõi chúng tôi</h3>
+                        <div class="media">
+                            <a href="https://www.facebook.com/sauriengdahuoai79"><span class="iconify" data-icon="ant-design:facebook-filled"></span></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <hr>
+                <p class="copyright">&copy; 2022 Sầu riêng Đạ Huoai. All rights reserved.</p>
+            </div>
+        </footer>
+        <!-- ========== Start scripts ============-->
+        <!-- Compulsory -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="/js/header-footer.js"></script>
+        <!-- Customize your script here -->
+        <script src="/js/product.js"></script>
+    </div>
+</body>
+</html>

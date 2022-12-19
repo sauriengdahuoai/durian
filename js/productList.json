@@ -1,0 +1,389 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "Sầu riêng hạt",
+            "ingredient": "Sầu riêng hạt Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "New",
+            "price": 50000,
+            "currentPrice": 50000,
+            "image": "https://i.ibb.co/Wcft66S/S-u-ri-ng-h-t.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "500",
+            "category": "1"
+        },
+
+        {
+            "id": 2,
+            "name": "Sầu riêng Thái",
+            "ingredient": "Sầu riêng Thái Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 100000,
+            "currentPrice": 100000,
+            "image": "https://i.ibb.co/kJ5BPHM/S-u-ri-ng-th-i.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "600",
+            "category": "1"
+        },
+
+        {
+            "id": 3,
+            "name": "Sầu riêng Ri 6",
+            "ingredient": "Sầu riêng Ri 6 Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 85000,
+            "currentPrice": 85000,
+            "image": "https://i.ibb.co/GFkNjsg/S-u-ri-ng-Ri-6.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "700",
+            "category": "1"
+        },
+
+        {
+            "id": 4,
+            "name": "Sầu riêng Musang King",
+            "ingredient": "Sầu riêng Musang King Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 1000000,
+            "currentPrice": 1000000,
+            "image": "https://i.ibb.co/mhGtjTF/S-u-ri-ng-Musangking.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "400",
+            "category": "1"
+        },
+
+        {
+            "id": 5,
+            "name": "Sầu riêng Chín Hóa",
+            "ingredient": "Sầu riêng Chín Hóa Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 100000,
+            "currentPrice": 100000,
+            "image": "https://i.ibb.co/HtqGjbC/S-u-ri-ng-Ch-n-h-a.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "500",
+            "category": "1"
+        },
+
+        {
+            "id": 6,
+            "name": "Sầu riêng đông lạnh còn hạt loại I",
+            "ingredient": "Sầu riêng đông lạnh còn hạt loại I Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "New",
+            "price": 85000,
+            "currentPrice": 85000,
+            "image": "https://i.ibb.co/D17bkyW/S-u-ri-ng-ng-l-nh-c-n-h-t-lo-i-I.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "700",
+            "category": "2"
+        },
+
+        {
+            "id": 7,
+            "name": "Sầu riêng đông lạnh còn hạt loại II",
+            "ingredient": "Sầu riêng đông lạnh còn hạt loại II Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "New",
+            "price": 75000,
+            "currentPrice": 75000,
+            "image": "https://i.ibb.co/TRkRrJN/S-u-ri-ng-ng-l-nh-c-n-h-t-lo-i-II.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "400",
+            "category": "2"
+        },
+
+        {
+            "id": 8,
+            "name": "Sầu riêng đông lạnh tách hạt loại I",
+            "ingredient": "Sầu riêng đông lạnh tách hạt loại I Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "New",
+            "price": 85000,
+            "currentPrice": 85000,
+            "image": "https://i.ibb.co/tqgj9St/S-u-ri-ng-ng-l-nh-t-ch-h-t-lo-i-I.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "900",
+            "category": "2"
+        },
+
+        {
+            "id": 9,
+            "name": "Sầu riêng đông lạnh tách hạt loại II",
+            "ingredient": "Sầu riêng đông lạnh tách hạt loại II Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "New",
+            "price": 75000,
+            "currentPrice": 75000,
+            "image": "https://i.ibb.co/BCYDPjn/S-u-ri-ng-ng-l-nh-t-ch-h-t-lo-i-II.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "800",
+            "category": "2"
+        },
+
+        {
+            "id": 10,
+            "name": "Sầu riêng đông lạnh cao cấp loại I",
+            "ingredient": "Sầu riêng đông lạnh cao cấp loại I Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 85000,
+            "currentPrice": 85000,
+            "image": "https://i.ibb.co/kymgSZM/S-u-ri-ng-ng-l-nh-cao-c-p-lo-i-I.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "950",
+            "category": "2"
+        },
+
+        {
+            "id": 11,
+            "name": "Sầu riêng đông lạnh cao cấp loại II",
+            "ingredient": "Sầu riêng đông lạnh cao cấp loại II Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 75000,
+            "currentPrice": 75000,
+            "image": "https://i.ibb.co/N3Ww15W/S-u-ri-ng-ng-l-nh-cao-c-p-lo-i-II.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "1000",
+            "category": "2"
+        },
+
+        {
+            "id": 12,
+            "name": "Sầu riêng sấy lạnh loại I",
+            "ingredient": "Sầu riêng sấy lạnh loại I Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "New",
+            "price": 85000,
+            "currentPrice": 85000,
+            "image": "https://i.ibb.co/LYwLtzq/S-u-ri-ng-s-y-l-nh-I.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "850",
+            "category": "3"
+        },
+
+        {
+            "id": 13,
+            "name": "Sầu riêng sấy lạnh loại II",
+            "ingredient": "Sầu riêng sấy lạnh loại II Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "New",
+            "price": 75000,
+            "currentPrice": 75000,
+            "image": "https://i.ibb.co/FWkcwjy/S-u-ri-ng-s-y-l-nh-II.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "1050",
+            "category": "3"
+        },
+
+        {
+            "id": 14,
+            "name": "Sầu riêng sấy đông khô loại I",
+            "ingredient": "Sầu riêng sấy đông khô loại I Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 85000,
+            "currentPrice": 85000,
+            "image": "https://i.ibb.co/j4W7X0q/S-u-ri-ng-s-y-ng-kh-I.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "850",
+            "category": "3"
+        },
+
+        {
+            "id": 15,
+            "name": "Sầu riêng sấy đông khô loại II",
+            "ingredient": "Sầu riêng sấy đông khô loại II Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 75000,
+            "currentPrice": 75000,
+            "image": "https://i.ibb.co/HCJ732S/S-u-ri-ng-s-y-ng-kh-II.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "1050",
+            "category": "3"
+        },
+
+        {
+            "id": 16,
+            "name": "Sầu riêng sấy thăng hoa loại I",
+            "ingredient": "Sầu riêng sấy thăng hoa loại I Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 85000,
+            "currentPrice": 85000,
+            "image": "https://i.ibb.co/dJLN4jt/S-u-ri-ng-s-y-th-ng-hoa-I.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "1250",
+            "category": "3"
+        },
+
+        {
+            "id": 17,
+            "name": "Sầu riêng sấy thăng hoa loại II",
+            "ingredient": "Sầu riêng sấy thăng hoa loại II Lâm Đồng",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 75000,
+            "currentPrice": 75000,
+            "image": "https://i.ibb.co/vdXt3TH/S-u-ri-ng-s-y-th-ng-hoa-II.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "1550",
+            "category": "3"
+        },
+
+        {
+            "id": 18,
+            "name": "COMBO Hấp dẫn",
+            "ingredient": "COMBO Hấp dẫn của Sầu riêng Đạ Huoai",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 1999000,
+            "currentPrice": 1999000,
+            "image": "https://i.ibb.co/QD09PG5/COMBO-Hap-Dan.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "600",
+            "category": "4"
+        },
+
+        {
+            "id": 19,
+            "name": "COMBO Khuyến mãi",
+            "ingredient": "COMBO Khuyến mãi của Sầu riêng Đạ Huoai",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 1499000,
+            "currentPrice": 1499000,
+            "image": "https://i.ibb.co/yPnf6X5/COMBO-Khuyen-Mai.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "1500",
+            "category": "4"
+        },
+
+        {
+            "id": 20,
+            "name": "COMBO Cao cấp",
+            "ingredient": "COMBO Cao cấp của Sầu riêng Đạ Huoai",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 2499000,
+            "currentPrice": 2499000,
+            "image": "https://i.ibb.co/34D4sdZ/COMBO-Cao-Cap.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "1000",
+            "category": "4"
+        },
+
+        {
+            "id": 21,
+            "name": "COMBO Đặc biệt Loại I",
+            "ingredient": "COMBO Đặc biệt loại I của Sầu riêng Đạ Huoai",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 2199000,
+            "currentPrice": 2199000,
+            "image": "https://i.ibb.co/g9XRwRC/COMBO-Dac-Biet-I.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "1450",
+            "category": "4"
+        },
+
+        {
+            "id": 22,
+            "name": "COMBO Đặc biệt Loại II",
+            "ingredient": "COMBO Đặc biệt Loại II của Sầu riêng Đạ Huoai",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 2199000,
+            "currentPrice": 2199000,
+            "image": "https://i.ibb.co/rygsPHz/COMBO-Dac-Biet-II.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "1350",
+            "category": "4"
+        },
+
+        {
+            "id": 23,
+            "name": "COMBO Siêu ưu đãi Loại I",
+            "ingredient": "COMBO Siêu ưu đãi Loại I của Sầu riêng Đạ Huoai",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 2199000,
+            "currentPrice": 2199000,
+            "image": "https://i.ibb.co/P1L7KV0/COMBO-Si-u-u-i-I.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "1450",
+            "category": "4"
+        },
+
+        {
+            "id": 24,
+            "name": "COMBO Siêu ưu đãi Loại II",
+            "ingredient": "COMBO Siêu ưu đãi Loại II của Sầu riêng Đạ Huoai",
+            "description": "Sầu riêng chuẩn VietGap",
+            "tag": "Top",
+            "price": 999000,
+            "currentPrice": 999000,
+            "image": "https://i.ibb.co/7YqWJFs/COMBO-Uu-Dai-I.png",
+            "isAvailable": true,
+            "isPromo": false,
+            "available": 100,
+            "buyed": "1350",
+            "category": "4"
+        }
+
+        
+    ]
+}

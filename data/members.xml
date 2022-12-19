@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<members>
+  <item>
+    <name>Đức Nhật</name>
+    <position>LEADER</position>
+    <describe>Code Header, Footer, trang Home, Chi tiết sản phẩm, Đặt hàng và thanh toán, Tài khoản, Admin, Đăng nhập/Đăng ký</describe>
+    <photo>https://i.ibb.co/nrH6Sy6/DucNhat.jpg</photo>
+  </item>
+  <item>
+    <name>Kim Tiền</name>
+    <position>MEMBER</position>
+    <describe>Thiết kế layout, Thiết kế Figma, Code trang Blog, chi tiết bài blog</describe>
+    <photo>https://i.ibb.co/b1VSM6h/KimTien.jpg</photo>
+  </item>
+  <item>
+    <name>Bích Trâm</name>
+    <position>MEMBER</position>
+    <describe>Thiết kế layout, Thiết kế Figma, Code Giỏ hàng, Liên hệ</describe>
+    <photo>https://i.ibb.co/ynJCwpk/BichTram.jpg</photo>
+  </item>
+  <item>
+    <name>Ngọc Vy</name>
+    <position>MEMBER</position>
+    <describe>Thiết kế layout, Thiết kế Figma, Code trang Menu và Filter</describe>
+    <photo>https://i.ibb.co/YPnDFBH/NgocVy.jpg</photo>
+  </item>
+  <item>
+    <name>Khánh Linh</name>
+    <position>MEMBER</position>
+    <describe>Thiết kế layout, Thiết kế Figma, Code trang About us, Chính sách bán hàng</describe>
+    <photo>https://i.ibb.co/j8bN9DJ/Khanh-Linh.jpg</photo>
+  </item>
+  <item>
+    <name>Ngọc Hạnh</name>
+    <position>MEMBER</position>
+    <describe>Thiết kế layout, Thiết kế Figma, Code trang About us, Chính sách bán hàng</describe>
+    <photo>https://i.ibb.co/hCGdFGw/NgocHanh.jpg</photo>
+  </item>
+</members>

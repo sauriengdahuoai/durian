@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sầu riêng Đạ Huoai</title>
+    <!-- Mandatory links -->
+    <!-- Logo on Tabs -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/LOGO32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/LOGO16x16.png">
+    <link rel="manifest" href="./images/favicons/site.webmanifest">
+    <!-- CSS base source, Header - Footer and Icons for all HTML files -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <!-- Custom file -->
+    <link rel="stylesheet" href="./css/policy.css">
+
+</head>
+<body>
+    <div class="app">
+        <!-- ==========Start Header=========== -->
+        <header>
+            <nav >
+                <div id="menu-icon"><span class="iconify" data-icon="bx:bx-menu-alt-left"></span></div>
+                <!-- Logo Sầu riêng Đạ Huoai -->
+                <div class="logo">
+                    <a href="index.html"><img src="./images/LOGO620x620.png" alt="Logo Sầu riêng Đạ Huoai"></a>
+                </div>
+                <!-- Menu -->
+                <ul class="menu">
+                    <li><a href="index.html" class="item">Trang chủ</a></li>
+                    <li id="menu"><a href="menu.html" class="item">Sản phẩm</a>
+                        <div class="child-1">
+                            <ul>
+                                <li><a href="filter.html#bestseller" class="sub-item-1">Phổ biến</a></li>
+                                <li><a href="filter.html#new" class="sub-item-1">Sản phẩm mới</a></li>
+                                <li><a href="filter.html#promotion" class="sub-item-1">Khuyến mãi</a></li>
+                                <li><a href="filter.html#offer" class="sub-item-1">Đề xuất</a></li>
+                                <li><a href="#" class="sub-item-1">Phân loại</a>
+                                    <div class="child-2">
+                                        <ul>
+                                            <li><a href="filter.html#sauriengtuoi" class="sub-item-2">Sầu riêng tươi</a></li>
+                                            <li><a href="filter.html#sauriengdonglanh" class="sub-item-2">Sầu riêng đông lạnh</a></li>
+                                            <li><a href="filter.html#sauriengsay" class="sub-item-2">Sầu riêng sấy</a></li>
+                                            <li><a href="filter.html#combosaurieng" class="sub-item-2">Combo Sầu riêng</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="blog.html" class="item">Blog</a></li>
+                    <li class="aboutus"><a href="aboutus.html" class="item" >Về chúng tôi</a></li>
+                    <div class="logo-menu"><a href="index.html"><img src="./images/LOGO620x620.png" alt="Logo Sầu riêng Đạ Huoai"></a></div>
+                    <div class="close-btn"><span class="iconify" data-icon="ci:close-big"></span></div>
+                </ul>
+                <!-- Search, account, cart icons -->
+                <div class="group-icons">
+                    <!-- Search icon and input -->
+                    <input type="search" id="search-input" name="durians" list="durians" placeholder="Bạn cần tìm gì?...">
+                    <datalist id="durians">
+                        <option value="Sầu riêng tươi">
+                        <option value="Sầu riêng sấy">
+                        <option value="Sầu riêng đông lạnh">
+                        <option value="Combo Sầu riêng">
+                        <option value="Combo Cao cấp">
+                        <option value="Sầu riêng sấy lạnh">
+                    </datalist>
+                    <button id="find-btn">Tìm</button>
+                    <button id="search-icon"><span class="iconify" data-icon="mdi:magnify"></span></button>
+                    <!-- Cart icon and status -->
+                    <div id="cart">
+                        <a class="cart-icon" href="cart.html">
+                            <p class="item-count"></p>
+                            <span class="iconify" data-icon="mdi:cart-outline"></span>
+                        </a>
+                        <div class="cart-box">
+                            <div class="empty-cart">
+                                <img src="images/cart_empty.png" alt="empty cart">
+                            </div>
+                            <!-- Cart has items -->
+                            <div class="non-empty">
+                                <header>Sản phẩm mới thêm</header>
+                                <div class="wrapper"></div>
+                                <div class="view-cart"><a href="cart.html" class="btn btn-primary"> Xem tất cả</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Account icon -->
+                    <a href="#" id="account-icon">
+                        <div class="acc-photo">
+                            <img class="user-photo" src="https://surilasauriengdo.net/wp-content/themes/suri/assets/images/contact3.png" alt="">
+                            <p class="temp-user"><span class="iconify" data-icon="mdi:account-circle-outline"></span></p>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <!-- ==========Start layout container============= -->
+        <div id="container">
+            <h1>CHÍNH SÁCH BÁN HÀNG</h1>
+            <hr class="policy">
+            <div class="sub-title"><h3>Sứ mệnh</h3></div>
+            <p class="content"> Sứ mệnh của SẦU RIÊNG ĐẠ HUOAI là xây dựng một ứng dụng mua sầu riêng trực tuyến chuyên nghiệp, 
+                thân thiện, tiện ích và bảo vệ lợi ích khách hàng. SẦU RIÊNG ĐẠ HUOAI luôn giữ vững phương châm hoạt động lấy khách hàng 
+                là trung tâm và cam kết đem đến những sản phẩm làm hài lòng khách hàng.
+            <br><br>
+            Sản phẩm được kinh doanh tại http://sauriengdahuoai.vn phải đáp ứng đầy đủ các quy định của pháp luật, không bán hàng nhái, 
+            hàng không rõ nguồn gốc.
+            <br><br>
+            Hoạt động mua bán phải được thực hiện công khai, minh bạch, đảm bảo quyền lợi của người tiêu dùng. 
+            </p>
+            <div class="sub-title"><h3>Quy định về hình thức thanh toán</h3></div>
+            <p class="content">
+
+            Người mua và bên bán có thể tham khảo các phương thức thanh toán sau đây và lựa chọn áp dụng phương thức phù hợp:<br><br>
+
+            <b>Cách 1: Thanh toán trực tiếp (người mua nhận hàng tại địa chỉ bên bán):</b> <br><br>
+
+            - Bước 1: Người mua tìm hiểu thông tin về sản phẩm, dịch vụ được đăng tin.<br><br>
+
+            - Bước 2: Người mua đến địa chỉ bán hàng<br><br>
+
+            - Bước 3: Người mua thanh toán bằng tiền mặt, thẻ ATM nội địa hoặc thẻ tín dụng và nhận hàng.<br><br>
+
+            <b>Cách 2: Thanh toán sau (COD – giao hàng và thu tiền tận nơi):</b><br><br>
+
+            - Bước 1: Người mua tìm hiểu thông tin về sản phẩm, dịch vụ được đăng tin.<br><br>
+
+            - Bước 2: Người mua xác thực đơn hàng (điện thoại, tin nhắn, email).<br><br>
+
+            - Bước 3: Người bán xác nhận thông tin Người mua.<br><br>
+
+            - Bước 4: Người bán chuyển hàng.<br><br>
+
+            - Bước 5: Người mua nhận hàng và thanh toán bằng tiền mặt, thẻ ATM nội địa hoặc thẻ tín dụng.<br><br>
+
+            <b>Cách 3: Thanh toán chuyển khoản/ ví điện tử</b><br><br>
+
+            - Bước 1: Người mua tìm hiểu thông tin về sản phẩm, dịch vụ được đăng tin.<br><br>
+
+            - Bước 2: Người mua xác thực đơn hàng (điện thoại, tin nhắn, email).<br><br>
+
+            - Bước 3: Người bán xác nhận thông tin Người mua.<br><br>
+
+            - Bước 4: Người mua thanh toán.<br><br>
+
+            - Bước 5: Người bán chuyển hàng.<br><br>
+
+            - Bước 6: Người mua nhận hàng.
+
+            </p>
+            <div class="sub-title"><h3>Quy định về giao nhận vận chuyển</h3></div>
+            <p class="content"> Sầu riêng Đạ Huoai thực hiện giao hàng trên khu vực thành phố Hồ Chí Minh, Bình Dương, Thủ Đức. 
+                Khi nhận đơn hàng từ người mua và sau khi đã xác thông tin mua hàng qua điện thoại, Sầu riêng Đạ Huoai sẽ tiến hành giao hàng 
+                theo yêu cầu của quý khách hàng</p>
+
+            <div class="sub-title"><h3>Chính sách bảo mật thông tin khách hàng</h3></div>
+            <p class="content">
+            Thông tin cá nhân của thành viên trên sauriengdahuoai.vn được sauriengdahuoai.vn cam kết bảo mật tuyệt đối theo chính sách bảo vệ thông tin 
+            cá nhân của sauriengdahuoai.vn. Việc thu thập và sử dụng thông tin của mỗi thành viên chỉ được thực hiện khi có sự đồng ý của khách hàng 
+            đó trừ những trường hợp pháp luật có quy định khác.<br><br>
+
+            Không sử dụng, không chuyển giao, cung cấp hay tiết lộ cho bên thứ 3 nào về thông tin cá nhân của thành viên khi không có sự 
+            cho phép đồng ý từ thành viên.<br><br>
+
+            Trong trường hợp máy chủ lưu trữ thông tin bị hacker tấn công dẫn đến mất mát dữ liệu cá nhân thành viên, sauriengdahuoai.vn sẽ có trách 
+            nhiệm thông báo vụ việc cho cơ quan chức năng điều tra xử lý kịp thời và thông báo cho thành viên được biết.
+            <br><br>
+            Bảo mật tuyệt đối mọi thông tin giao dịch trực tuyến của Thành viên bao gồm thông tin hóa đơn kế toán chứng từ số hóa tại 
+            khu vực dữ liệu trung tâm an toàn cấp 1 của sauriengdahuoai.vn.<br><br>
+
+            Ban quản lý sauriengdahuoai.vn yêu cầu các cá nhân khi đăng ký/mua hàng là thành viên, phải cung cấp đầy đủ thông tin cá nhân có 
+            liên quan như: Họ và tên, địa chỉ liên lạc, email, số chứng minh nhân dân, điện thoại, số tài khoản, số thẻ thanh toán …., 
+            và chịu trách nhiệm về tính pháp lý của những thông tin trên. Ban quản lý không chịu trách nhiệm cũng như không giải quyết 
+            mọi khiếu nại có liên quan đến quyền lợi của Thành viên đó nếu xét thấy tất cả thông tin cá nhân của thành viên đó cung cấp 
+            khi đăng ký ban đầu là không chính xác.
+            </p>
+       </div>
+           <!-- ===========Start Footer============ -->
+           <footer>
+            <div class="wrapper">
+                <div class="big-logo">
+                    <a href="index.html" class="logo"><img src="./images/LOGO620x620.png" alt="logo"></a>
+                    <a href="index.html">Sầu riêng Đạ Huoai</a>
+                </div>
+                <div class="links">
+                    <div class="aboutus">
+                        <h3>Về chúng tôi</h3>
+                        <a href="aboutus.html" class="item">Về chúng tôi</a>
+                        <a href="policy.html" class="item">Chính sách</a>
+                        <a href="contact.html" class="item">Liên hệ</a>
+                    </div>
+                    <div class="contact">
+                        <h3>Liên Hệ</h3>
+                        <ul>
+                            <li>
+                                <div class="icon"><span class="iconify" data-icon="carbon:location-filled"></span></div>
+                                <a href="#">Số 669 Quốc lộ 1A, Khu phố 3, Phường Linh Xuân, Thủ Đức, TP. HCM</a></li>
+                            <li>
+                                <div class="icon"><span class="iconify" data-icon="fluent:mail-48-filled"></span></div>
+                                <a href="mailto:sauriengdahuoai.official@gmail.com">sauriengdahuoai.official@gmail.com</a></li>
+                            <li>
+                                <div class="icon"><span class="iconify" data-icon="carbon:phone-voice-filled"></span></div>
+                                <a href="tel:19007979">1900 7979</a></li>
+                        </ul>
+                    </div>
+                    <div class="follow">
+                        <h3>Theo dõi chúng tôi</h3>
+                        <div class="media">
+                            <a href="https://www.facebook.com/sauriengdahuoai79"><span class="iconify" data-icon="ant-design:facebook-filled"></span></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <hr>
+                <p class="copyright">&copy; 2022 Sầu riêng Đạ Huoai. All rights reserved.</p>
+            </div>
+        </footer>
+        <!-- ========== Start scripts ============-->
+        <!-- Compulsory -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="/js/header-footer.js"></script>
+    </div>
+</body>
+</html>

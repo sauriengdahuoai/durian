@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sầu riêng Đạ Huoai | Trang chủ</title>
+    <!-- Mandatory links -->
+    <!-- Logo on Tabs -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/LOGO32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/LOGO16x16.png">
+    <link rel="manifest" href="./images/favicons/site.webmanifest">
+    <!-- CSS base source, Header - Footer and Icons for all HTML files -->
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <!-- Custom file -->
+    <link rel="stylesheet" href="./css/home.css">
+ 
+</head>
+<body>
+    <div class="app">
+        <!-- ==========Start Header=========== -->
+        <header>
+            <nav >
+                <div id="menu-icon"><span class="iconify" data-icon="bx:bx-menu-alt-left"></span></div>
+                <!-- Logo Sầu riêng Đạ Huoai -->
+                <div class="logo">
+                    <a href="index.html"><img src="./images/LOGO620x620.png" alt="Logo Sau rieng DaHuoai"></a>
+                </div>
+                <!-- Menu -->
+                <ul class="menu">
+                    <li><a href="index.html" class="item">Trang chủ</a></li>
+                    <li id="menu"><a href="menu.html" class="item">Sản phẩm</a>
+                        <div class="child-1">
+                            <ul>
+                                <li><a href="filter.html#bestseller" class="sub-item-1">Phổ biến</a></li>
+                                <li><a href="filter.html#new" class="sub-item-1">Sản phẩm mới</a></li>
+                                <li><a href="filter.html#promotion" class="sub-item-1">Khuyến mãi</a></li>
+                                <li><a href="filter.html#offer" class="sub-item-1">Đề xuất</a></li>
+                                <li><a href="#" class="sub-item-1">Phân loại</a>
+                                    <div class="child-2">
+                                        <ul>
+                                            <li><a href="filter.html#sauriengtuoi" class="sub-item-2">Sầu riêng tươi</a></li>
+                                            <li><a href="filter.html#sauriengdonglanh" class="sub-item-2">Sầu riêng đông lạnh</a></li>
+                                            <li><a href="filter.html#sauriengsay" class="sub-item-2">Sầu riêng sấy</a></li>
+                                            <li><a href="filter.html#combosaurieng" class="sub-item-2">Combo Sầu riêng</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="blog.html" class="item">Blog</a></li>
+                    <li><a href="aboutus.html" class="item">Về chúng tôi</a></li>
+                    <div class="logo-menu"><a href="index.html"><img src="./images/LOGO620x620.png" alt="Logo Sau rieng DaHuoai"></a></div>
+                    <div class="close-btn"><span class="iconify" data-icon="ci:close-big"></span></div>
+                </ul>
+                <!-- Search, account, cart icons -->
+                <div class="group-icons">
+                    <!-- Search icon and input -->
+                    <input type="search" id="search-input" name="durians" list="durians" placeholder="Bạn cần tìm gì?...">
+                    <datalist id="durians">
+                        <option value="Sầu riêng tươi">
+                        <option value="Sầu riêng sấy">
+                        <option value="Sầu riêng đông lạnh">
+                        <option value="Combo Sầu riêng">
+                        <option value="Combo Cao cấp">
+                        <option value="Sầu riêng sấy lạnh">
+                    </datalist>
+                    <button id="find-btn">Tìm</button>
+                    <button id="search-icon"><span class="iconify" data-icon="mdi:magnify"></span></button>
+                    <!-- Cart icon and status -->
+                    <div id="cart">
+                        <a class="cart-icon" href="cart.html">
+                            <p class="item-count"></p>
+                            <span class="iconify" data-icon="mdi:cart-outline"></span>
+                        </a>
+                        <div class="cart-box">
+                            <div class="empty-cart">
+                                <img src="/images/cart_empty.png" alt="empty cart">
+                            </div>
+                            <!-- Cart has items -->
+                            <div class="non-empty">
+                                <header>Sản phẩm mới thêm</header>
+                                <div class="wrapper"></div>
+                                <div class="view-cart"><a href="cart.html" class="btn btn-primary"> Xem tất cả</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Account icon -->
+                    <a href="#" id="account-icon">
+                        <div class="acc-photo">
+                            <img class="user-photo" src="https://surilasauriengdo.net/wp-content/themes/suri/assets/images/contact3.png" alt="">
+                            <p class="temp-user"><span class="iconify" data-icon="mdi:account-circle-outline"></span></p>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+ 
+        </header>
+        <!-- ==========Start layout container============= -->
+     
+        <div id="container">
+            <!-- Banner -->
+            <section id="banners">
+                <div class="slide-wrapper">
+                    <div class="slider-item"></div>
+                    <div class="slider-item"></div>
+                    <div class="slider-item"></div>
+                </div>
+                <div class="content">
+                    <h1 class="font-xxl main-title">Sầu riêng <br>
+                        Đạ Huoai...</h1>
+                        <br>
+                    <h3 class="description">Những ông mặt trời thơm</p>
+                </div>
+            </section>
+ 
+            <!-- Start Hightlight session -->
+            <section id="hightlight">
+                <!-- Summary box -->
+                <div class="summary">
+                    <div class="wrapper">
+                        <div class="item"><span class="iconify" data-icon="clarity:store-solid"></span>
+                            <p class="description">Hơn 30 chế phẩm sầu riêng</p></div>
+                        <div class="item"><span class="iconify" data-icon="carbon:delivery"></span>
+                            <p class="description">Thời gian giao hàng linh hoạt</p></div>
+                        <div class="item"><span class="iconify" data-icon="carbon:airline-passenger-care"></span>
+                            <p class="description">Nhiều ưu đãi hấp dẫn </p></div>
+                        <div class="item"><span class="iconify" data-icon="ri:secure-payment-fill"></span>
+                            <p class="description">Thanh toán an toàn và bảo mật</p></div>
+                       
+                    </div>
+                </div>
+                <!-- Hightlight box -->
+                <div class="hl-box">
+                    <div class="wrapper">
+                        <div class="content-box">
+                            <div class="logo">
+                               <hr>
+                            </div>
+                            <div class="content">
+                                <h3>Điểm nổi bật của Sầu riêng Đạ Huoai</h3>
+                                <p class="description">SẢN PHẨM 100% AN TOÀN THỰC PHẨM - CHO SỨC KHỎE NGƯỜI DÙNG. SẦU RIÊNG ĐẠ HUOAI TỰ HÀO LÀ THƯƠNG HIỆU SẦU RIÊNG 100% SẢN XUẤT TẠI VIỆT NAM.
+                                    <br><br>
+                                    Nguyên liệu có nguồn gốc rõ ràng: Tất cả thành phần nguyên liệu trong các sản phẩm của chúng tôi đều có chứng từ chứng minh nguồn gốc xuất xứ từ các nhà cung cấp nguyên liệu trong và ngoài nước.
+                                    <br><br>
+                                    Kiểm nghiệm an toàn thực phẩm: Chúng tôi cam kết không sử dụng các loại hóa chất độc hại trong trồng trọt và chế biến các sản phẩm của mình. Thay vào đó, chúng tôi ưu tiên phát huy tối đa các hoạt chất lành tính, được Nhà nước cấp phép.
+                                    <br><br>
+                                    Quy trình sản xuất hiện đại: Các sản phẩm của chúng tôi được nghiên cứu và chế biến theo quy trình khép kín với công nghệ hiện đại bậc nhất Đông Nam Á giữ trọn hương vị sầu riêng tự nhiên. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="./images/homenoibat.png" alt="">
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <!-- Bubble image bạckground -->
+                <div class="floating-buble">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="hình ảnh sầu riêng thơm ngon" style="opacity: 0.7">
+                </div>
+            </section>
+ 
+            <!-- Start Best Sellers -->
+            <section id="bestseller">
+                <div class="wrapper">
+                    <h2 class="title font-xl">Bán chạy</h2>
+                    <div class="container">
+                    </div>
+                </div>
+            </section>
+            <!-- Start offer -->
+            <section id="offer">
+                <div class="wrapper">
+                    <div class="item">
+                        <h2 class="title font-xl">Đề xuất</h2>
+                        <!-- 1 Item -->
+                        <div class="container left">
+                            <div class="content">
+                                <h4 class="name">Combo Cao cấp</h4>
+                                <p class="price"><del>2.499.000đ</del><b> 2.299.000đ</b></p>
+                                <a href="cart.html" class="btn btn-third">Đặt mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 1 item -->
+                    <div class="item">
+                        <div class="container right">
+                            <div class="content">
+                                <h4 class="name">Combo Khuyến mãi</h4>
+                                <p class="price"><del>1.499.000đ</del><b> 1.299.000đ</b></p>
+                                <a href="cart.html" class="btn btn-third">Đặt mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <!-- Bubble image background -->
+                <div class="floating-buble">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="Hình ảnh sầu riêng thơm ngon">
+                </div>
+            </section>
+            <!-- Start review session -->
+            <section id="review">
+                <div class="wrapper">
+                    <h2 class="title font-xl">Review của khách hàng</h2>
+                    <div class="slider-wrapper">
+                        <div class="slider-post">
+                            <!-- 1 post -->
+                            <div id="firstClone" class="post">
+                                <div class="detail">
+                                    <h2 class="open-quote"><span class="iconify" data-icon="bx:bxs-quote-alt-left"></span></h2>
+                                    <p class="content">
+                                        Có nhiều sản phẩm sầu riêng để lựa chọn, thời gian giao hàng cũng nhanh,
+                                        và có thể đặt trước nữa.
+                                    </p>
+                                    <h2 class="close-quote"><span class="iconify" data-icon="bx:bxs-quote-alt-right"></span></h2>
+                                   
+                                </div>
+                                <div class="author">
+                                    <div class="photo"><img src="https://i.ibb.co/nrH6Sy6/DucNhat.jpg" alt=""></div>
+                                    <div class="name-star">
+                                        <h5 class="name">Thành Công</h5>
+                                        <div class="star">
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-half"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 1 post -->
+                            <div class="post">
+                                <div class="detail">
+                                    <h2 class="open-quote"><span class="iconify" data-icon="bx:bxs-quote-alt-left"></span></h2>
+                                    <p class="content">
+                                        Có nhiều sản phẩm sầu riêng để lựa chọn, thời gian giao hàng cũng nhanh,
+                                        và sầu riêng còn ngon nữa.
+                                    </p>
+                                    <h2 class="close-quote"><span class="iconify" data-icon="bx:bxs-quote-alt-right"></span></h2>
+                                   
+                                </div>
+                                <div class="author">
+                                    <div class="photo"><img src="https://i.ibb.co/j8bN9DJ/Khanh-Linh.jpg" alt=""></div>
+                                    <div class="name-star">
+                                        <h5 class="name">Nguyệt Anh</h5>
+                                        <div class="star">
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-half"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 1 post -->
+                            <div class="post">
+                                <div class="detail">
+                                    <h2 class="open-quote"><span class="iconify" data-icon="bx:bxs-quote-alt-left"></span></h2>
+                                    <p class="content">
+                                        Sầu riêng ngon quá trời, em ăn 3 trái mà chưa đủ. Lần sau sẽ mua lại.
+                                    </p>
+                                    <h2 class="close-quote"><span class="iconify" data-icon="bx:bxs-quote-alt-right"></span></h2>
+                                   
+                                </div>
+                                <div class="author">
+                                    <div class="photo"><img src="https://i.ibb.co/ynJCwpk/BichTram.jpg" alt=""></div>
+                                    <div class="name-star">
+                                        <h5 class="name">Bảo Bối</h5>
+                                        <div class="star">
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-half"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 1 post -->
+                            <div class="post">
+                                <div class="detail">
+                                    <h2 class="open-quote"><span class="iconify" data-icon="bx:bxs-quote-alt-left"></span></h2>
+                                    <p class="content">
+                                        Sầu riêng thực sự rất ngon và tươi. Mình đã không kì vọng lắm vào chất lượng vì giá cả khá rẻ nhưng có vẻ mình đã sai. Sẽ ủng hộ lâu dài =)))
+                                    </p>
+                                    <h2 class="close-quote"><span class="iconify" data-icon="bx:bxs-quote-alt-right"></span></h2>
+                                   
+                                </div>
+                                <div class="author">
+                                    <div class="photo"><img src="https://i.ibb.co/hCGdFGw/NgocHanh.jpg" alt=""></div>
+                                    <div class="name-star">
+                                        <h5 class="name">Trân Châu</h5>
+                                        <div class="star">
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-half"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 1 post -->
+                            <div class="post">
+                                <div class="detail">
+                                    <h2 class="open-quote"><span class="iconify" data-icon="bx:bxs-quote-alt-left"></span></h2>
+                                    <p class="content">
+                                        Một điểm cộng to bự là ship rất nhanh. Mình ở Hà Nội mà mới một ngày thôi đã nhận được rồi, vì vậy sầu riêng còn rất tươi. Sầu riêng sấy cũng rất giòn và ngọt.
+                                    </p>
+                                    <h2 class="close-quote"><span class="iconify" data-icon="bx:bxs-quote-alt-right"></span></h2>
+                                   
+                                </div>
+                                <div class="author">
+                                    <div class="photo"><img src="https://i.ibb.co/YPnDFBH/NgocVy.jpg" alt=""></div>
+                                    <div class="name-star">
+                                        <h5 class="name">Thỏ Ngọc</h5>
+                                        <div class="star">
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-half"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 1 post -->
+                            <div id="lastClone" class="post">
+                                <div class="detail">
+                                    <h2 class="open-quote"><span class="iconify" data-icon="bx:bxs-quote-alt-left"></span></h2>
+                                    <p class="content">
+                                       Mình đã mua sầu riêng Đạ Huoai ở cửa hàng nên rất yên tâm về chất lượng. Shop rất lịch sự, chăm sóc khách hàng rất tốt, giá cả cũng okie.
+                                    </p>
+                                    <h2 class="close-quote"><span class="iconify" data-icon="bx:bxs-quote-alt-right"></span></h2>
+                                   
+                                </div>
+                                <div class="author">
+                                    <div class="photo"><img src="https://i.ibb.co/b1VSM6h/KimTien.jpg" alt=""></div>
+                                    <div class="name-star">
+                                        <h5 class="name">Tuấn Kiệt</h5>
+                                        <div class="star">
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-fill"></span>
+                                            <span class="iconify" data-icon="bi:star-half"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="indicator">
+                            <button class="prev"><span class="iconify" data-icon="akar-icons:chevron-left"></span></button>
+                            <button class="next"><span class="iconify" data-icon="akar-icons:chevron-right"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Start order -->
+            <section id="order">
+                <div class="wrapper">
+                    <h2 class="title font-xl">Hướng dẫn đặt hàng</h2>
+                    <!-- Left column -->
+                    <div class="left"><img src="https://i.ibb.co/w0tKrYY/image2.png" alt=""></div>
+                    <!-- Center column -->
+                    <div class="center">
+                        <p class="icon"><span class="iconify" data-icon="mdi:cart-heart"></span></p>
+                        <div class="dash-line-ver"></div>
+                        <p class="icon"><span class="iconify" data-icon="icon-park-outline:delivery"></span></p>
+                        <div class="dash-line-ver"></div>
+                        <p class="icon"><span class="iconify" data-icon="bx:happy-heart-eyes"></span></p>
+                    </div>
+                   
+                    <!-- Right column -->
+                    <div class="right">
+                        <div class="step">
+                            <h3 class="action">Chọn Sản phẩm Sầu riêng</h3>
+                            <p class="description">Vào trang sản phẩm để tìm Sản phẩm Sầu riêng phù hợp với nhu cầu của bạn và cho ngay vào giỏ hàng.</p>
+                        </div>
+                        <div class="step">
+                            <h3 class="action">Chọn điều kiện giao hàng và thanh toán</h3>
+                            <p class="description">Bạn cần chọn thời gian, địa điểm, phương thức giao hàng và thanh toán để đặt hàng thành công.</p>
+                        </div>
+                        <div class="step">
+                            <h3 class="action">Thưởng thức</h3>
+                            <p class="description">Sầu riêng Đạ Huoai sẽ giao sản phẩm đến bạn và bạn hãy thưởng thức thật ngon nhé!</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <!-- Bubble image background -->
+                <div class="floating-buble">
+                    <img src="https://i.ibb.co/zxcDcsY/cutie-1.png" alt="Hình ảnh sầu riêng thơm ngon">
+                </div>
+            </section>
+        </div>
+        <!-- ===========End Container=========== -->
+        <!-- Messenger Chat Plugin Code -->
+        <div id="fb-root"></div>
+ 
+        <!-- Your Chat Plugin code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+ 
+        <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "104829868153851");
+        chatbox.setAttribute("attribution", "biz_inbox");
+        </script>
+ 
+        <!-- Your SDK code -->
+        <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+            xfbml            : true,
+            version          : 'v12.0'
+            });
+        };
+ 
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!-- ===========Start Footer============ -->
+        <footer>
+            <div class="wrapper">
+                <div class="big-logo">
+                    <a href="index.html" class="logo"><img src="./images/LOGO620x620.png" alt="logo"></a>
+                    <a href="index.html">Sầu riêng Đạ Huoai</a>
+                </div>
+                <div class="links">
+                    <div class="aboutus">
+                        <h3>Về chúng tôi</h3>
+                        <a href="aboutus.html" class="item">Về chúng tôi</a>
+                        <a href="policy.html" class="item">Chính sách</a>
+                        <a href="contact.html" class="item">Liên hệ</a>
+                    </div>
+                    <div class="contact">
+                        <h3>Liên Hệ</h3>
+                        <ul>
+                            <li>
+                                <div class="icon"><span class="iconify" data-icon="carbon:location-filled"></span></div>
+                                <a href="#">Số 669 Quốc lộ 1A, Khu phố 3, Phường Linh Xuân, Thủ Đức, TP. HCM</a></li>
+                            <li>
+                                <div class="icon"><span class="iconify" data-icon="fluent:mail-48-filled"></span></div>
+                                <a href="mailto:sauriengdahuoai.official@gmail.com">sauriengdahuoai.official@gmail.com</a></li>
+                            <li>
+                                <div class="icon"><span class="iconify" data-icon="carbon:phone-voice-filled"></span></div>
+                                <a href="tel:19007979">1900 7979</a></li>
+                        </ul>
+                    </div>
+                    <div class="follow">
+                        <h3>Theo dõi chúng tôi</h3>
+                        <div class="media">
+                            <a href="https://www.facebook.com/sauriengdahuoai79"><span class="iconify" data-icon="ant-design:facebook-filled"></span></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <hr>
+                <p class="copyright">&copy; 2022 Sầu riêng Đạ Huoai. All rights reserved.</p>
+            </div>
+        </footer>
+        <!-- ========== Start scripts ============-->
+        <!-- Compulsory -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="/js/header-footer.js"></script>
+        <!-- Customize your script here -->
+        <script src="./js/product.js"></script>
+        <script src="./js/index.js"></script>
+    </div>
+</body>
+</html>
